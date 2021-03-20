@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Roboto:wght@300&display=swap');
 
 :root{
-	--primary-color:#d90429;
-	--secondary-color:#cea2fd;
+	--primary-color:#cea2fd;
+	--secondary-color:purple;
 	--primary-bg-color:#212121;
 	--secondary-bg-color: #333333;
 	--tertiary-bg-color: #474747;

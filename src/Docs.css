@@ -1,6 +1,37 @@
 .aside{
     grid-area: aside;
     background-color: var(--primary-bg-color);
+    padding:1rem;
+    display:fixed;
+    height:78vh;
+    font-size:1.2rem;
+}
+
+.list{
+    display:flex;
+    flex-direction: column;
+    list-style: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+    margin-top:2rem;
+}
+
+.list-item{
+    display: inherit;
+    color: var(--secondary-text-color);
+    padding:0.3rem;
+}
+
+.list-item:hover{
+    background-color: var(--secondary-bg-color);
+    border-radius: 5%;
+    color:var(--primary-text-color);
+}
+
+.highlighted{
+    color:var(--primary-color);
+    margin-bottom:1rem;
 }
 
 .docs{
@@ -11,7 +42,7 @@
 
 .doc-container{
     display:grid;
-    grid-template-areas: "aside docs docs docs docs"
-                         "aside docs docs docs docs"
-                         "aside docs docs docs docs";
+    grid-template-areas: "aside docs docs docs docs docs docs docs"
+                         "aside docs docs docs docs docs docs docs"
+                         "aside docs docs docs docs docs docs docs";
 }

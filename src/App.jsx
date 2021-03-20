@@ -64,9 +64,7 @@ function App() {
 						</a>
 					</li>
 				</ul>
-		<p>
-			&#9400; Akshita Saini | Created Using ReactJS, HTML5 and CSS3 
-		</p>
+			<div class="info">&#9400; Akshita Saini | Created Using ReactJS, HTML5 and CSS3</div> 
 	</footer>
 	  </div>
   );

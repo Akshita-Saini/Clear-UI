@@ -3,6 +3,7 @@ import {useState} from "react";
 import "./main.css";
 import "./Docs.css";
 
+
 import {Buttons, Lists, Avatars, Card, Modal} from "./components/index.js";
 
 function SidebarItem({name, setSidebarItem})
@@ -10,10 +11,10 @@ function SidebarItem({name, setSidebarItem})
     function clickHandler(name)
     {
         setSidebarItem(name);
-        console.log("I have changed the useState!!",name);
+        console.log("I have changed the useState!",name);
     }
     return(
-        <li onClick={() => clickHandler(name)}>{name}</li>
+        <li className="list-item" onClick={() => clickHandler(name)}>{name}</li>
     );
 }
 function Docs(){
@@ -23,13 +24,12 @@ function Docs(){
     return(
         <div className="doc-container">
              <aside className="aside">
-                <nav>
-                    <ul>
-                        {
-                            Object.keys(componentList).map(componentName => <SidebarItem key={componentName} name={componentName} setSidebarItem={setSidebarItem}/>)
-                        }
-                    </ul>
-                </nav>
+                <ul className="list">
+                    <li className="list-item highlighted">Installation Guide</li>
+                    {
+                        Object.keys(componentList).map(componentName => <SidebarItem key={componentName} name={componentName} setSidebarItem={setSidebarItem}/>)
+                    }
+                </ul>
             </aside> 
             <div className="docs">
                         {

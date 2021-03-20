@@ -1,7 +1,7 @@
 .nav-container{
 	grid-area: nav-container;
 	background-color: var(--secondary-bg-color);
-	color: white;
+	color: var(--primary-text-color);
 }
 
 .nav{
@@ -10,14 +10,15 @@
 }
 
 .nav-brand{
-	font-size: large;
-	padding-right:0.5rem;
-	padding-left:1rem;
+	font-size: 1.7rem;
+	padding-right:1.6rem;
+	padding-left:2.45rem;
 	align-self:center;
 	font-family: 'Roboto', sans-serif;
-	color:var(--secondary-color);
+	color:var(--primary-color);
 	letter-spacing: 5px;;
 	font-weight:700;
+
 }
 
 .nav-item-inline{
@@ -73,6 +74,9 @@
 
 }
 
+.info{
+	padding-bottom: 0.5rem;
+}
 .layout{
 	display:grid;
 	grid-template-areas: "nav-container nav-container nav-container"

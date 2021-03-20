@@ -1,7 +1,7 @@
 .header{
 	grid-area:header;
 	background-color: var(--primary-bg-color);
-	color:var(--secondary-color);
+	color:var(--primary-color);
 }
 
 .card{
@@ -22,7 +22,7 @@
 
 .card-body{
 	text-align:center;
-	color:var(--secondary-color);
+	color:var(--primary-color);
 	font-family: 'Prompt', sans-serif;
 	font-weight: 400;
 	font-size:1.5rem;
@@ -31,7 +31,7 @@
 .card-button{
 	color:inherit;
 	background-color:  inherit;
-	border:0.5px solid var(--secondary-color);
+	border:0.5px solid var(--primary-color);
 	border-radius:0.25rem;
 	padding:0.45rem;
 	font-family: 'Prompt', sans-serif;
