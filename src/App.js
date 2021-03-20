@@ -1,55 +1,48 @@
+import {
+	BrowserRouter as Router,
+	Switch,
+	Route,
+	Link
+} from "react-router-dom";
+import {Home} from "./Home";
+import {Docs} from "./Docs";
+import {About} from "./About";
+
 import "./main.css";
+import "./App.css";
 
 function App() {
   return (
 	  <div className="layout">
+		<Router>
 		<div className="nav-container">
 			<nav className="nav">
-				<div className="nav-brand">Clear - UI</div>
+				<div className="nav-brand">CLEAR - UI</div>
 				<ul className="ordered nav-pills">
 					<li className="nav-item-inline">
-						<a href="/" className="nav-link active">Home</a>
+						<Link to="/" className="nav-link active">Home</Link>
 					</li>
 					<li class="nav-item-inline">
-						<a href="/" className="nav-link">Documentation</a>
+						<Link to="/docs" className="nav-link">Documentation</Link>
 					</li>
 					<li className="nav-item-inline">
-					<a href="/" className="nav-link">About Us</a>
+						<Link to="/about" className="nav-link">About Us</Link>
 					</li>
 				</ul>
 			</nav>
+			<Switch>
+				<Route path="/about">
+					<About/>
+				</Route>
+				<Route path="/docs">
+					<Docs/>
+				</Route>
+				<Route path="/">
+					<Home/>
+				</Route>
+			</Switch>
 		</div>
-		<header className="header">
-			<div className="card">
-			<h1 className="card-heading">CLEAR - UI</h1>
-			<p className="card-body">
-				A CSS framework with components that can be composed to build any design, directly in your markup. It's easy to customize, adapts to any design and can . 
-			</p>
-			<button className="card-button">
-				GET STARTED
-			</button>
-			</div>
-		</header>
-		<div className="container">
-			<div className="section">
-				<h3 className="section-header">Installation</h3>
-				<p  className="section-body">Follow the these steps to install and use Clear-UI directly into your project.</p>
-				<code>Here's the link!</code>
-				<hr className="section-hr"/>
-				<button className="section-button">
-					READ INSTALLATION DOCS
-				</button>
-			</div>
-			<div className="section">
-				<h3 className="section-header">Usage</h3>
-				<p  className="section-body">Clear - UI's components require no additional set-up.</p>
-				<code>Here's the link!</code>
-				<hr className="section-hr"/>
-				<button className="section-button">
-					EXPLORE THE DOCS
-				</button>
-			</div>
-		</div>
+		</Router>
 		<footer className="footer">
 			<h3>CONTACT</h3>
 			<div className="footer-header">I'd Love To Hear From You.</div>
@@ -73,9 +66,6 @@ function App() {
 						</a>
 					</li>
 				</ul>
-		<p>
-			akshitasaini007@gmail.com
-		</p>
 		<p>
 			&#9400; Akshita Saini | Created Using ReactJS, HTML5 and CSS3 
 		</p>
