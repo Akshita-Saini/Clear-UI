@@ -3,7 +3,7 @@ import "./Home.css";
 
 function Home() {
     return (
-        <div>
+        <div className="container">
             <header className="header">
 			    <div className="card">
 			        <h1 className="card-heading">CLEAR - UI</h1>
@@ -15,7 +15,7 @@ function Home() {
 			        </button>
 		        </div>
 		    </header>
-		<div className="container">
+		<div className="main">
 			<div className="section">
 				<h3 className="section-header">
 					<svg className="section-icon" width="1em" height="1em" viewBox="0 0 24 24"><path d="M19.92 12.08L12 20l-7.92-7.92l1.42-1.41l5.5 5.5V2h2v14.17l5.5-5.51l1.42 1.42M12 20H2v2h20v-2H12z" fill="currentColor"></path>

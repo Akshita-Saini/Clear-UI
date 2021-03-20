@@ -22,7 +22,7 @@ function App() {
 					<li className="nav-item-inline">
 						<Link to="/" className="nav-link active">Home</Link>
 					</li>
-					<li class="nav-item-inline">
+					<li className="nav-item-inline">
 						<Link to="/docs" className="nav-link">Documentation</Link>
 					</li>
 					<li className="nav-item-inline">
@@ -44,8 +44,6 @@ function App() {
 		</div>
 		</Router>
 		<footer className="footer">
-			<h3>CONTACT</h3>
-			<div className="footer-header">I'd Love To Hear From You.</div>
 				<ul className="social-links  list-non-bullet">
 					<li className="list-item-inline">
 			  			<a href="https://www.linkedin.com/in/akshita-saini-0782a61a1/" className="link">

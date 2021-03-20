@@ -1,0 +1,17 @@
+.aside{
+    grid-area: aside;
+    background-color: var(--primary-bg-color);
+}
+
+.docs{
+    grid-area: docs;
+    background-color: var(--primary-text-color);
+    color:var(--secondary-bg-color);
+}
+
+.doc-container{
+    display:grid;
+    grid-template-areas: "aside docs docs docs docs"
+                         "aside docs docs docs docs"
+                         "aside docs docs docs docs";
+}
