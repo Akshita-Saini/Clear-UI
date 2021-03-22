@@ -8,14 +8,15 @@
 }
 
 .list-item{
-    color: var(--secondary-text-color);
+    color: var(--tertiary-text-color);
     padding:0.3rem;
-    border:1px solid var(--primary-text-color);
+    border:1px solid var(--secondary-text-color);
+    max-width:40rem;
 }
 
 .list-item:hover{
-    color:var(--tertiary-text-color);
-    border:1px solid var(--secondary-text-color);
+    color:var(--dark);
+    border:1px solid var(--dark);
 
 }
 

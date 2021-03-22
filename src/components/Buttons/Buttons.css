@@ -4,18 +4,44 @@
     border-radius:0.3rem;;
     min-width:8rem;
     font-size:1.05rem;
+    margin:0.2rem;
 }
 
-.btn.hover{
+.btn:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
-.btn-primary{
+.btn.btn-primary{
     color:var(--light);
     background-color: var(--primary);
 }
 
-.btn-secondary{
+.btn.btn-secondary{
     color:var(--tertiary);
     background-color: var(--secondary);
 }
+
+.btn.btn-outline.btn-primary{
+    color:var(--primary);
+    background-color: var(--light);
+    border:1px solid var(--primary);
+}
+
+.btn.btn-outline.btn-primary:hover{
+    color:var(--light);
+    background-color: var(--primary);
+    border:1px solid var(--light);
+}
+
+.btn.btn-outline.btn-secondary{
+    color:var(--secondary);
+    background-color: var(--light);
+    border:1px solid var(--secondary);
+}
+
+.btn.btn-outline.btn-secondary:hover{
+    color:var(--light);
+    background-color: var(--secondary);
+    border:1px solid var(--light);
+}
+

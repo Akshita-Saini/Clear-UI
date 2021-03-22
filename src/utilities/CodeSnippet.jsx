@@ -1,6 +1,6 @@
 import "./CodeSnippet.css";
 
-function CodeSnippet({heading, description,code, children})
+function CodeSnippet({heading, description, code, children})
 {
     return (
     <div className="component-container-inner">
