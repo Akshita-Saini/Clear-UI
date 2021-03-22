@@ -4,7 +4,7 @@ import "./main.css";
 import "./Docs.css";
 
 
-import {Buttons, Lists, Avatars, Card, Modal} from "./components/index.js";
+import {Avatars, Alerts, Badges, Buttons, Card, Lists, Modal} from "./components/index.js";
 
 function SidebarItem({name, setSidebarItem})
 {
@@ -14,18 +14,22 @@ function SidebarItem({name, setSidebarItem})
         console.log("I have changed the useState!",name);
     }
     return(
-        <li className="list-item" onClick={() => clickHandler(name)}>{name}</li>
+        <li className="ls-item" onClick={() => clickHandler(name)}>{name}</li>
     );
 }
 function Docs(){
-    const componentList = {"Buttons" : {component : <Buttons />}, "Lists" : {component : <Lists />}, "Avatars" : {component: <Avatars/>}, "Card" : {component : <Card />}, "Modal" : {component : <Modal />}};
+    /* "":{component:< />} */
+    const componentList = {"Avatars" : {component: <Avatars/>},"Alerts":{component:<Alerts/>},
+    "Badges":{component:<Badges />},
+    "Buttons" : {component : <Buttons />}, 
+    "Card" : {component : <Card />}, "Lists" : {component : <Lists />}, "Modal" : {component : <Modal />}};
     const [sidebarItem, setSidebarItem] = useState("Buttons");
 
     return(
         <div className="doc-container">
              <aside className="aside">
-                <ul className="list">
-                    <li className="list-item highlighted">Installation Guide</li>
+                <ul className="ls">
+                    <li className="ls-item highlighted">Installation Guide</li>
                     {
                         Object.keys(componentList).map(componentName => <SidebarItem key={componentName} name={componentName} setSidebarItem={setSidebarItem}/>)
                     }

@@ -4,7 +4,7 @@
 	color:var(--primary-color);
 }
 
-.card{
+.cd{
 	padding:2rem;
 	width:50%;
 	display:flex;
@@ -13,14 +13,14 @@
 	align-items: center;
 }
 
-.card-heading{
+.cd-heading{
 	font-size:3rem;
 	letter-spacing: 0.8rem;
 	font-family: 'Roboto', sans-serif;
 	font-weight:200;
 }
 
-.card-body{
+.cd-body{
 	text-align:center;
 	color:var(--primary-color);
 	font-family: 'Prompt', sans-serif;
@@ -28,7 +28,7 @@
 	font-size:1.5rem;
 }
 
-.card-button{
+.cd-button{
 	color:inherit;
 	background-color:  inherit;
 	border:0.5px solid var(--primary-color);
@@ -39,7 +39,7 @@
 	font-size:1rem;
 }
 
-.card-button:hover{
+.cd-button:hover{
 	background-color: var(--secondary-bg-color);
 }
 

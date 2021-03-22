@@ -5,12 +5,12 @@ function Home() {
     return (
         <div className="container">
             <header className="header">
-			    <div className="card">
-			        <h1 className="card-heading">CLEAR - UI</h1>
-			        <p className="card-body">
+			    <div className="cd">
+			        <h1 className="cd-heading">CLEAR - UI</h1>
+			        <p className="cd-body">
 				        A CSS framework with components that can be composed to build any design, directly in your markup. It's easy to customize and use.
 			        </p>
-			        <button className="card-button">
+			        <button className="cd-button">
 				        GET STARTED
 			        </button>
 		        </div>

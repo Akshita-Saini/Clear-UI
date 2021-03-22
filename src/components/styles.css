@@ -2,26 +2,43 @@ html, body{
     --primary:rgb(135, 66, 199);
     --secondary:rgb(206, 162, 253);
     --tertiary:rgb(105, 36, 170);
-    --sucess:rgb(82,196,26);
+    --success:rgb(82,196,26);
     --danger:rgb(255,77,79);
     --warning:rgb(250,173,20);
     --info:rgb(24,144,255);
     --light:rgb(249, 250, 251);
     --dark:rgb(28, 31, 35);
+    --grey:rgb(141, 153, 174);
+    --primary-bg-color:#212121;
+	--secondary-bg-color: #333333;
+	--tertiary-bg-color: #474747;
+	--primary-text-color:#EDF2F4;
+	--secondary-text-color:#8D99AE;
+    --tertiary-text-color:#697383;
 }
 
-.component-container-outer{
-    padding:1rem;
-}
-
-.component-container-inner{
-    background-color: var(--light);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    padding:1rem;
-    margin:1rem;
-    border-radius: 0.3rem;
-}
-
-.component-code{
-    background-color: var(--grey);
-}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }

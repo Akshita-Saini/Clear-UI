@@ -3,11 +3,11 @@
     background-color: var(--primary-bg-color);
     padding:1rem;
     display:fixed;
-    height:78vh;
+    height:100%;
     font-size:1.2rem;
 }
 
-.list{
+.ls{
     display:flex;
     flex-direction: column;
     list-style: none;
@@ -17,13 +17,13 @@
     margin-top:2rem;
 }
 
-.list-item{
+.ls-item{
     display: inherit;
     color: var(--secondary-text-color);
     padding:0.3rem;
 }
 
-.list-item:hover{
+.ls-item:hover{
     background-color: var(--secondary-bg-color);
     border-radius: 5%;
     color:var(--primary-text-color);

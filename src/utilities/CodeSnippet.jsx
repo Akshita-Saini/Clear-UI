@@ -1,3 +1,5 @@
+import "./CodeSnippet.css";
+
 function CodeSnippet({heading, description,code, children})
 {
     return (
@@ -5,7 +7,7 @@ function CodeSnippet({heading, description,code, children})
         <h2 className="component-heading">{heading}</h2>
         <p className="component-description">{description}</p>
         <div className="component-demo">{children}</div>
-        <code className="component-code">{code}</code>
+        <code><div className="component-code">{code.map(line => <div className="component-code-line">{line}</div>)}</div></code>
     </div>
     );
 }

@@ -1,7 +1,9 @@
+import {Avatars} from "./Avatars/Avatars.jsx";
+import {Alerts} from "./Alerts/Alerts.jsx";
+import {Badges} from "./Badges/Badges.jsx"
 import {Buttons} from "./Buttons/Buttons.jsx";
 import {Card} from "./Card/Card.jsx";
-import {Modal} from "./Modal/Modal.jsx";
 import {Lists} from "./Lists/Lists.jsx";
-import {Avatars} from "./Avatars/Avatars.jsx";
+import {Modal} from "./Modal/Modal.jsx";
 
-export {Buttons, Card, Modal, Lists, Avatars};
+export {Avatars,Alerts, Badges, Buttons, Card, Lists, Modal};

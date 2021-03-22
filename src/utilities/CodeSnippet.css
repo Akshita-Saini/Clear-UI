@@ -1,0 +1,33 @@
+.component-container-outer{
+    padding:1rem;
+    display:flex;
+    flex-direction: column;
+}
+
+.component-container-inner{
+    background-color: var(--light);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:1rem;
+    margin:1rem;
+    border-radius: 0.3rem;
+}
+
+.component-code{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:1rem;
+    background-color: var();
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    border:1px solid var(--primary-text-color);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    align-self: center;
+    justify-self: center;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.component-code-line{
+    padding:0.2rem;
+}
