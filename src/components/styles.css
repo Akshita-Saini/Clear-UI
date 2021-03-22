@@ -1,0 +1,27 @@
+html, body{
+    --primary:rgb(135, 66, 199);
+    --secondary:rgb(206, 162, 253);
+    --tertiary:rgb(105, 36, 170);
+    --sucess:rgb(82,196,26);
+    --danger:rgb(255,77,79);
+    --warning:rgb(250,173,20);
+    --info:rgb(24,144,255);
+    --light:rgb(249, 250, 251);
+    --dark:rgb(28, 31, 35);
+}
+
+.component-container-outer{
+    padding:1rem;
+}
+
+.component-container-inner{
+    background-color: var(--light);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding:1rem;
+    margin:1rem;
+    border-radius: 0.3rem;
+}
+
+.component-code{
+    background-color: var(--grey);
+}
