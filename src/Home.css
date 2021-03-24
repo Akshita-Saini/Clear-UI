@@ -57,6 +57,7 @@
     grid-template-areas: "header header header"
                          "main main main"
                          "main main main";
+	height:100vh;
 }
 
 .section{

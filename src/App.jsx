@@ -43,29 +43,6 @@ function App() {
 			</Switch>
 		</div>
 		</Router>
-		<footer className="footer">
-				<ul className="social-links  list-non-bullet">
-					<li className="list-item-inline">
-			  			<a href="https://www.linkedin.com/in/akshita-saini-0782a61a1/" className="link">
-						LinkedIn
-							{/* <img src={} className="inline-icon"/> */}
-						</a>
-		   			 </li>
-					<li className="list-item-inline">
-						<a href="https://github.com/Akshita-Saini" className="link">
-						GitHub
-							{/* <img src={} className="inline-icon"/> */}
-						</a>
-					</li>
-					<li className="list-item-inline">
-						<a href="https://twitter.com/akshitasaini15?lang=en" className="link">
-						Twitter
-							{/* <img src={} className="inline-icon"/> */}
-						</a>
-					</li>
-				</ul>
-			<div class="info">&#9400; Akshita Saini | Created Using ReactJS, HTML5 and CSS3</div> 
-	</footer>
 	  </div>
   );
 }

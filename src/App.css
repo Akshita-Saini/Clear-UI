@@ -1,7 +1,10 @@
 .nav-container{
-	grid-area: nav-container;
+	display:fixed;
+	top:0;
+	width:100%;
 	background-color: var(--secondary-bg-color);
 	color: var(--primary-text-color);
+	overflow:hidden;
 }
 
 .nav{
@@ -40,48 +43,4 @@
 .nav-link.active{
 	background-color: var(--tertiary-bg-color);
 	border-radius: 0.3rem;	
-}
-
-.footer{
-	grid-area: footer;
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: var(--primary-bg-color);
-	color:var(--primary-text-color);
-	border-top:2px solid var(--secondary-bg-color);
-}
-
-.social-links{
-	list-style: none;
-	padding:0.2rem;
-}
-
-.list-item-inline{
-	display:inline;
-	padding:0.25rem;
-}
-
-.link{
-	text-decoration: none;
-	color:var(--primary-text-color);
-	border-radius: 0.25rem;
-}
-
-.link:hover{
-	background-color:var(--secondary-bg-color);
-
-}
-
-.info{
-	padding-bottom: 0.5rem;
-}
-.layout{
-	display:grid;
-	grid-template-areas: "nav-container nav-container nav-container"
-						 "container container container"
-						 "container container container"
-						 "container container container"
-						 "footer footer footer";
 }
