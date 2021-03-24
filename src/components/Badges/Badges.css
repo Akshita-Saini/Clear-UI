@@ -1,0 +1,52 @@
+.badge{
+    position:absolute;
+    width:1.5rem;
+    height:1.5rem;
+    border-radius: 50%;
+    bottom:0.7rem;
+    right:1.5rem;
+}
+
+.badge-parent{
+    position:relative;
+}
+
+.badge{
+    position:absolute;
+}
+
+.badge-online{
+    background-color:var(--success);
+}
+
+.badge-offline{
+    background-color:var(--grey);
+}
+
+.badge-do-not-disturb{
+    background-color:var(--danger);
+}
+
+.badge-with-number{
+    padding:1px;
+    color:var(--light);
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* for positioning */
+.left{
+    right:4rem;
+}
+
+.center{
+    right:2rem;
+}
+
+.right{
+    right:0.2rem;
+}

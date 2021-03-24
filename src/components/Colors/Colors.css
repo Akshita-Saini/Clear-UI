@@ -1,0 +1,57 @@
+.color-pallet{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.color{
+    width:5rem;
+    height: 5rem;
+    padding:1rem;
+    margin:1rem;
+    color:var(--light);
+}
+
+.color.bg-light{
+    color:var(--dark);
+}
+
+.bg-primary{
+    background-color: var(--primary);
+}
+
+.bg-secondary{
+    background-color: var(--secondary);
+}
+
+.bg-tertiary{
+    background-color: var(--tertiary);
+}
+
+.bg-success{
+    background-color: var(--success);
+}
+
+.bg-danger{
+    background-color: var(--danger);
+}
+
+.bg-info{
+    background-color: var(--info);
+}
+
+.bg-light{
+    background-color: var(--light);
+}
+
+.bg-dark{
+    background-color: var(--dark);
+}
+
+.bg-grey{
+    background-color: var(--grey);
+}
+
+.bg-warning{
+    background-color: var(--warning);
+}

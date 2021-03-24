@@ -8,40 +8,52 @@
 }
 
 .btn:hover{
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
-.btn.btn-primary{
+.btn-primary{
     color:var(--light);
     background-color: var(--primary);
 }
 
-.btn.btn-secondary{
+.btn-secondary{
     color:var(--tertiary);
     background-color: var(--secondary);
 }
 
-.btn.btn-outline.btn-primary{
+.btn-outline.btn-primary{
     color:var(--primary);
     background-color: var(--light);
     border:1px solid var(--primary);
 }
 
-.btn.btn-outline.btn-primary:hover{
+.btn-outline.btn-primary:hover{
     color:var(--light);
     background-color: var(--primary);
-    border:1px solid var(--light);
+    transition: 0.3s;
 }
 
-.btn.btn-outline.btn-secondary{
+.btn-outline.btn-secondary{
     color:var(--secondary);
     background-color: var(--light);
     border:1px solid var(--secondary);
 }
 
-.btn.btn-outline.btn-secondary:hover{
+.btn-outline.btn-secondary:hover{
     color:var(--light);
     background-color: var(--secondary);
-    border:1px solid var(--light);
+    transition: 0.3s;
+}
+
+.btn-inverted{
+    color:var(--primary);
+    background-color: var(--dark);
+    border:1px solid var(--primary);
+}
+
+.btn-inverted{
+    color:var(--secondary);
+    background-color: var(--dark);
+    border:1px solid var(--secondary);
 }
 

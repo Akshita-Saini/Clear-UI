@@ -20,3 +20,32 @@
     width:2.5rem;
     height:2.5rem;
 }
+
+.avatar-square{
+    border-radius: 0;
+}
+
+.avatar-with-badge{
+    position:relative;
+}
+
+.badge{
+    position:absolute;
+    width:1.5rem;
+    height:1.5rem;
+    border-radius: 50%;
+    bottom:0.7rem;
+    right:1.5rem;
+}
+
+.badge-online{
+    background-color:var(--success);
+}
+
+.badge-offline{
+    background-color:var(--grey);
+}
+
+.badge-do-not-disturb{
+    background-color:var(--danger);
+}

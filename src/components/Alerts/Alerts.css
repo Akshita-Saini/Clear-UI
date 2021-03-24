@@ -3,12 +3,12 @@
     color:var(--info);
     border:2px solid var(--info);
     border-radius: 0.2rem;
-    padding:0.2rem;
-    font-size:0.8rem;
+    padding:0.5rem 1rem;
+    padding-right:1.4rem;
     display:flex;
     align-items:center;
     margin:0.4rem;
-    max-width:40rem;
+    width:max-content;
 }
 
 .alert-text{

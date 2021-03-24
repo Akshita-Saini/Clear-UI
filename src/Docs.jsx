@@ -4,7 +4,7 @@ import "./main.css";
 import "./Docs.css";
 
 
-import {Avatars, Alerts, Badges, Buttons, Card, Lists, Modal} from "./components/index.js";
+import {Avatars, Alerts, Badges, Buttons, Card, Colors, Lists, Modal} from "./components/index.js";
 
 function SidebarItem({name, setSidebarItem})
 {
@@ -19,10 +19,16 @@ function SidebarItem({name, setSidebarItem})
 }
 function Docs(){
     /* "":{component:< />} */
-    const componentList = {"Avatars" : {component: <Avatars/>},"Alerts":{component:<Alerts/>},
-    "Badges":{component:<Badges />},
-    "Buttons" : {component : <Buttons />}, 
-    "Card" : {component : <Card />}, "Lists" : {component : <Lists />}, "Modal" : {component : <Modal />}};
+    const componentList = {
+        "Avatars" : {component: <Avatars/>},
+        "Alerts":{component:<Alerts/>},
+        "Badges":{component:<Badges />},
+        "Buttons" : {component : <Buttons />}, 
+        "Card" : {component : <Card />}, 
+        "Lists" : {component : <Lists />}, 
+        "Modal" : {component : <Modal />},
+        "Colors" : {component : <Colors />}
+    };
     const [sidebarItem, setSidebarItem] = useState("Buttons");
 
     return(
