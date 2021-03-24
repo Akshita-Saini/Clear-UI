@@ -1,4 +1,4 @@
-import {CodeSnippet} from "../../utilities/CodeSnippet";
+import {Component} from "../../utilities/Component";
 import "../styles.css";
 import "./Modal.css";
 
@@ -7,7 +7,7 @@ function Modal()
     return (
         <div className="component-container-outer">
         <h1 className="component-header">Modal</h1>
-        <CodeSnippet heading="Modal" description="This is a modal." code={[
+        <Component heading="Modal" description="This is a modal." code={[
                 `<div className="modal">`,
                 `   <h2 className="modal-heading">Title</h2>`,
                 `   <p className="modal-body"></p>`,
@@ -22,7 +22,7 @@ function Modal()
                 </p>
                 <button className="modal-button">Close</button>
             </div>
-        </CodeSnippet>
+        </Component>
         </div>
     );
 }

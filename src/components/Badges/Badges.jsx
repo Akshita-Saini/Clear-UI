@@ -1,4 +1,4 @@
-import {CodeSnippet} from "../../utilities/CodeSnippet";
+import {Component} from "../../utilities/Component";
 import "../styles.css";
 import "./Badges.css";
 
@@ -7,7 +7,7 @@ function Badges()
     return (
         <div className="component-container-outer">
             <h1 className="component-header">Buttons</h1>
-            <CodeSnippet 
+            <Component 
                 heading="Badges" 
                 description="These are simple badges." 
                 code={[`<div className="badge-parent">`,
@@ -28,8 +28,8 @@ function Badges()
                 <div className="badge-parent">
                     <div className="badge badge-do-not-disturb right"></div>
                 </div>
-            </CodeSnippet>
-            <CodeSnippet 
+            </Component>
+            <Component 
                 heading="Badges with Number" 
                 description="These are simple badges." 
                 code={[`<div className="badge-parent">`,
@@ -39,7 +39,7 @@ function Badges()
                 <div className="badge-parent">
                     <div className="flex badge badge-online badge-with-number">2</div>
                 </div>
-            </CodeSnippet>
+            </Component>
         </div>
     );
 }

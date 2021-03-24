@@ -20,3 +20,7 @@ body{
 	padding-inline-start: 0;
 }
 
+*:focus{
+    outline: none;
+}
+

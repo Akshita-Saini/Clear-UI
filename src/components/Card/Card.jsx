@@ -1,4 +1,4 @@
-import {CodeSnippet} from "../../utilities/CodeSnippet";
+import {Component} from "../../utilities/Component";
 import "../styles.css";
 import "./Card.css";
 
@@ -7,7 +7,7 @@ function Card()
     return (
         <div className="component-container-outer">
             <h1 className="component-header">Card</h1>
-            <CodeSnippet heading="Card" description="This is a card." code={[`<div className="card-body">`,
+            <Component heading="Card" description="This is a card." code={[`<div className="card-body">`,
                        `<h2 className="card-header">TITLE</h2>`,
                         `<hr className="card-hr"/>`,
                         `<p className="card-text">`,
@@ -25,7 +25,7 @@ function Card()
                         </p>
                     </div>
                 </div>
-            </CodeSnippet>
+            </Component>
         </div>
     );
 }

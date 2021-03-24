@@ -1,7 +1,7 @@
 import Highlight from "react-highlight";
-import "./CodeSnippet.css";
+import "./Component.css";
 
-function CodeSnippet({heading, description, code, children})
+function Component({heading, description, code, children})
 {
     return (
     <div className="component-container-inner">
@@ -22,4 +22,4 @@ function CodeSnippet({heading, description, code, children})
     );
 }
 
-export {CodeSnippet};
+export {Component};

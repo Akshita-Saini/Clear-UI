@@ -1,4 +1,4 @@
-import {CodeSnippet} from "../../utilities/CodeSnippet";
+import {Component} from "../../utilities/Component";
 import "../styles.css";
 import "./Avatars.css";
 import profile from "../../images/profile.png";
@@ -10,7 +10,7 @@ function Avatars()
     return (
         <div className="component-container-outer">
             <h1 className="component-header">Avatars</h1>
-            <CodeSnippet 
+            <Component 
                 heading="Avatars" 
                 description="This is an avatar." 
                 code={[`<img className="avatar" src={profile} alt="avatar"/>`,
@@ -21,8 +21,8 @@ function Avatars()
                     <img className="avatar avatar-sm" src={profile} alt="avatar"/>
                     <img className="avatar avatar-xs" src={profile} alt="avatar"/>
                 </div>
-            </CodeSnippet>
-            <CodeSnippet 
+            </Component>
+            <Component 
                 heading="Avatars with Badges" 
                 description="These are avatars with badges." 
                 code={[`<div className="avatar-with-badge">`,
@@ -51,8 +51,8 @@ function Avatars()
                         <div className="badge offline-badge"></div>
                     </div>
                 </div>
-            </CodeSnippet>
-            <CodeSnippet 
+            </Component>
+            <Component 
                 heading="Avatars with Shapes" 
                 description="These are the different avatar shapes that can be used." 
                 code={[`<img className="avatar" src={profile} alt="avatar"/>`,
@@ -61,7 +61,7 @@ function Avatars()
                     <img className="avatar" src={male_user} alt="avatar"/>
                     <img className="avatar avatar-square" src={female_user} alt="avatar"/>
                 </div>
-            </CodeSnippet>
+            </Component>
         </div>
     );
 }
