@@ -11,7 +11,7 @@ function Buttons()
                 heading="Solid Buttons" 
                 description="These are solid buttons." 
                 code={[`<button className="btn btn-primary">Primary</button>`,
-                       `<button className="btn btn-primary">Primary</button>`]}>
+                       `<button className="btn btn-secondary">Secondary</button>`]}>
                 <button className="btn btn-primary">Primary</button>
                 <button className="btn btn-secondary">Secondary</button>
             </Component>

@@ -1,5 +1,6 @@
 import {Component} from "../../utilities/Component";
 import "../styles.css";
+import "../styles.css";
 import "./Card.css";
 import "../utilities.css";
 import placeholder_image from "../../images/placeholder_img.png";
@@ -50,10 +51,14 @@ function Card()
                             <div className="card-secondary-header">Secondary Title</div>
                             <hr className="card-hr"/>
                             <p className="card-text">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
-                            magnis dis parturient montes, nascetur ridiculus mus.
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                                magnis dis parturient montes, nascetur ridiculus mus.
                             </p>
+                            <div className="card-btn-group">
+                                <button className="card-btn btn btn-dark">ADD TO CART</button>
+                                <button className="card-btn btn btn-dark">WISHLIST</button>
+                            </div>
                         </div>
                     </div>
                 </div>

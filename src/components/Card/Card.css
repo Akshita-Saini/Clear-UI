@@ -27,6 +27,12 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+.card-btn-group{
+    display:block;
+}
+.card-btn{
+    width:45%;
+}
 .card-with-img{
     display:flex;
     flex-direction:column;

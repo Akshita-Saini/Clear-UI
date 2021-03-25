@@ -7,14 +7,53 @@
     border-radius:0.2rem;
 }
 
+body{
+    background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-demo{
+    position:fixed;
+    z-index:1;
+    top:25vh;
+    right:25vw;
+    background-color:var(--light);
+    padding:0.8rem;
+    max-width:25rem;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    border-radius:0.2rem;
+    overflow:auto;
+}
+
+.modal-heading{
+    display:flex;
+    justify-content: space-between;
+}
+
 .modal-button{
     color:var(--dark);
     background-color: var(--primary-text-color);
     border:none;
     padding:0.5rem;
+    width:100%;
 }
 
 .modal-button:hover{
     outline:none;
     background-color:#d0dce0;
+}
+
+.btn-live{
+    width:max-content;
+    background-color:var(--primary);
+    color:var(--light);
+    padding:0.5rem 1rem;
+    border:0;
+    border-radius:0.3rem;;
+    font-size:1.05rem;
+    margin:1rem;
+    margin-bottom:0.1rem;
+}
+
+.btn-live:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }

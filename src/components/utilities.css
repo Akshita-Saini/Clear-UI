@@ -1,3 +1,10 @@
+/* Display : Flex */
+.flex{
+    display:flex;
+}
+.align-center{
+    align-items:center;
+}
 
 /* Padding */
 .p-1{
@@ -6,10 +13,14 @@
 .p-2{
     padding:2rem;
 }
-
 .pr-1{
     padding-right:1rem;
 }
 .pl-1{
     padding-left:1rem;
 }
+
+/* Font Size */
+/* Margin */
+/* Border */
+/* */
