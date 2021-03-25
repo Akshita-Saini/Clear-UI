@@ -1,0 +1,15 @@
+
+/* Padding */
+.p-1{
+    padding:1rem;
+}
+.p-2{
+    padding:2rem;
+}
+
+.pr-1{
+    padding-right:1rem;
+}
+.pl-1{
+    padding-left:1rem;
+}

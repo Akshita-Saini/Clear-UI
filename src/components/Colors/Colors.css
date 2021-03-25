@@ -4,12 +4,17 @@
     align-items: center;
     flex-wrap: wrap;
 }
+
 .color{
     width:5rem;
     height: 5rem;
     padding:1rem;
     margin:1rem;
     color:var(--light);
+}
+
+.color.bg-light{
+    border:1px solid var(--dark);
 }
 
 .color.bg-light{
