@@ -9,21 +9,49 @@ function Navbar()
         <h1 className="component-header">Navbar</h1>
         <Component   
             heading="Navbar" 
-            description="These are the various navbars." 
+            description="This is the default navbar." 
             code={[
-                `<div className="alert"><Info /> <span className="alert-text"></span></div>`,
-                `<div className="alert alert-success"><CheckCircle/> <span className="alert-text"></span></div>`,
-                `<div className="alert alert-danger"><Error/> <span className="alert-text"></span></div>`,
-                `<div className="alert alert-warning"><Warning/> <span className="alert-text"></span></div>`
+                `<div className="navbar-container">`,
+                `   <div className="nav-brand-name">CLEAR</div>`,
+                `   <div className="nav-list-inline">`,
+                `        <div className="nav-list-link">Home</div>`,
+                `        <div className="nav-list-link">Products</div>`,
+                `        <div className="nav-list-link">About Us</div>`,
+                `        <div className="nav-list-link">Contact</div>`,
+                `   </div>`,
+                `</div>`
                 ]} >
-            <div className="navbar">
-                <div className="nav-brand">
-                <div className="nav-list">
-                    <div className="nav-list-item"></div>
-                    <div className="nav-list-item"></div>
-                    <div className="nav-list-item"></div>
-                    <div className="nav-list-item"></div>
+            <div className="navbar-container">
+                <div className="nav-brand-name">CLEAR</div>
+                <div className="nav-list-inline">
+                    <div className="nav-list-link">Home</div>
+                    <div className="nav-list-link">Products</div>
+                    <div className="nav-list-link">About Us</div>
+                    <div className="nav-list-link">Contact</div>
                 </div>
+            </div>
+        </Component>
+        <Component   
+            heading="Dark Navbar" 
+            description="This is the Dark Navbar." 
+            code={
+                [`<div className="navbar-container-dark">`,
+                `   <div className="nav-brand-name-dark">CLEAR</div>`,
+                `   <div className="nav-list-inline-dark">`,
+                `        <div className="nav-list-link-dark">Home</div>`,
+                `        <div className="nav-list-link-dark">Products</div>`,
+                `        <div className="nav-list-link-dark">About Us</div>`,
+                `        <div className="nav-list-link-dark">Contact</div>`,
+                `   </div>`,
+                `</div>`]
+                } >
+            <div className="navbar-container-dark">
+                <div className="nav-brand-name-dark">CLEAR</div>
+                <div className="nav-list-inline-dark">
+                    <div className="nav-list-link-dark">Home</div>
+                    <div className="nav-list-link-dark">Products</div>
+                    <div className="nav-list-link-dark">About Us</div>
+                    <div className="nav-list-link-dark">Contact</div>
                 </div>
             </div>
         </Component>

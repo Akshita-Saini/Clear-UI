@@ -31,7 +31,7 @@ function Docs(){
         "Toast"   : {component : <Toast/>   },
         "Colors"  : {component : <Colors/>  }
     };
-    const [sidebarItem, setSidebarItem] = useState("Buttons");
+    const [sidebarItem, setSidebarItem] = useState("Avatars");
 
     return(
         <div className="doc-container">

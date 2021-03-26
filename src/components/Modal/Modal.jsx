@@ -9,7 +9,6 @@ function Modal()
     function openModal()
     {
         toggleModal(true);
-        /* document.querySelector("body").style.backgroundColor='rgba(52, 52, 52, 0.8)'; */
     }
     function closeModal()
     {
@@ -19,6 +18,7 @@ function Modal()
     function ModalDemo()
     {
         return(
+            <div className="modal-bg">
             <div className="modal-demo">
                 <h2 className="modal-heading">Title<span className="modal-close-button" onClick={closeModal}>&#10005;</span></h2>
                 <p className="modal-body">
@@ -27,6 +27,7 @@ function Modal()
                     magnis dis parturient montes, nascetur ridiculus mus.
                 </p>
                 <button className="modal-button" onClick={closeModal}>Close</button>
+            </div>
             </div>
         );
     }

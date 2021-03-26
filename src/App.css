@@ -9,7 +9,6 @@
 
 .nav{
 	display:flex;
-	justify-items:flex-start;
 }
 
 .nav-brand{
