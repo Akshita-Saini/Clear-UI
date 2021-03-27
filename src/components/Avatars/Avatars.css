@@ -38,14 +38,14 @@
     right:1.5rem;
 }
 
-.badge-online{
+.badge.online{
     background-color:var(--success);
 }
 
-.badge-offline{
+.badge.offline{
     background-color:var(--grey);
 }
 
-.badge-do-not-disturb{
+.badge.dnd{
     background-color:var(--danger);
 }

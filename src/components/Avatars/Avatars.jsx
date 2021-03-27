@@ -40,15 +40,15 @@ function Avatars()
                 <div className="avatar-container">
                     <div className="avatar-with-badge">
                         <img className="avatar" src={profile} alt="avatar"/>
-                        <div className="badge online-badge"></div>
+                        <div className="badge online"></div>
                     </div>
                     <div className="avatar-with-badge">
                         <img className="avatar" src={profile} alt="avatar"/>
-                        <div className="badge do-not-disturb-badge"></div>
+                        <div className="badge dnd"></div>
                     </div>
                     <div className="avatar-with-badge">
                         <img className="avatar" src={profile} alt="avatar"/>
-                        <div className="badge offline-badge"></div>
+                        <div className="badge offline"></div>
                     </div>
                 </div>
             </Component>
