@@ -1,53 +1,53 @@
-.aside{
-    grid-area: aside;
-    background-color: var(--primary-bg-color);
-    padding:3rem;
-    display:fixed;
-    height:100vh;
-    font-size:1.2rem;
+.aside {
+  grid-area: aside;
+  background-color: var(--primary-bg-color);
+  padding: 3rem;
+  display: fixed;
+  height: 100vh;
+  font-size: 1.2rem;
 }
 
-.doc-container{
-    background-color: var(--primary-bg-color);
+.doc-container {
+  background-color: var(--primary-bg-color);
 }
 
-.ls{
-    display:flex;
-    flex-direction: column;
-    list-style: none;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    padding-inline-start: 0px;
-    margin-top:2rem;
-    padding-left:1rem;
+.ls {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-inline-start: 0px;
+  margin-top: 2rem;
+  padding-left: 1rem;
+}
+.ls-item {
+  display: inherit;
+  color: var(--secondary-text-color);
+  padding: 0.3rem;
 }
 
-.ls-item{
-    display: inherit;
-    color: var(--secondary-text-color);
-    padding:0.3rem;
+.ls-item:hover {
+  background-color: var(--secondary-bg-color);
+  border-radius: 5%;
+  color: var(--primary-text-color);
 }
 
-.ls-item:hover{
-    background-color: var(--secondary-bg-color);
-    border-radius: 5%;
-    color:var(--primary-text-color);
+.highlighted {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
 }
 
-.highlighted{
-    color:var(--primary-color);
-    margin-bottom:1rem;
+.docs {
+  grid-area: docs;
+  background-color: var(--primary-text-color);
+  color: var(--secondary-bg-color);
 }
 
-.docs{
-    grid-area: docs;
-    background-color: var(--primary-text-color);
-    color:var(--secondary-bg-color);
-}
-
-.doc-container{
-    display:grid;
-    grid-template-areas: "aside docs docs docs docs docs docs docs"
-                         "aside docs docs docs docs docs docs docs"
-                         "aside docs docs docs docs docs docs docs";
+.doc-container {
+  display: grid;
+  grid-template-areas:
+    "aside docs docs docs docs docs docs docs"
+    "aside docs docs docs docs docs docs docs"
+    "aside docs docs docs docs docs docs docs";
 }
