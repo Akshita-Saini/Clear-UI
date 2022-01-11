@@ -7,7 +7,7 @@ import "./components/Buttons/Buttons.css";
 
 function Home() {
   return (
-    <div className="container">
+    <div>
       <div className="nav-container">
         <nav className="nav">
           <div className="nav-brand">CLEAR - UI</div>
@@ -32,7 +32,7 @@ function Home() {
         <div className="header">
           <div className="header-top">
             <div>
-              <img src={logo} className="logo" alt="logo" />
+              <img src={logo} className="header-logo" alt="logo" />
             </div>
             <div className="header-right-box">
               <h1 className="header-heading">CLEAR - UI</h1>
@@ -41,7 +41,9 @@ function Home() {
                 any design, directly in your markup. It's easy to customize and
                 use.
               </p>
-              <button className="header-button">GET STARTED</button>
+              <Link to="/docs" className="header-button">
+                Get Started
+              </Link>
             </div>
           </div>
           <div className="header-bottom">
@@ -65,7 +67,7 @@ function Home() {
         </div>
       </header>
       <div className="main">
-        <div className="section">
+        <div className="section" id="installation">
           <h3 className="section-header">
             <svg
               width="1.2em"

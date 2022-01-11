@@ -1,8 +1,9 @@
 import { useState } from "react";
-
-/* import "./main.css";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
+import logo from "./images/circle.svg";
+import "./main.css";
 import "./Docs.css";
- */
 
 import {
   Avatars,
@@ -29,9 +30,7 @@ function SidebarItem({ name, setSidebarItem, sidebarItem }) {
       style={
         sidebarItem === name
           ? {
-              backgroundColor: "#474747",
-              color: "#EDF2F4",
-              borderRadius: "0.2rem",
+              backgroundColor: "rgba(227, 202, 255, 0.548)",
             }
           : null
       }
@@ -40,8 +39,8 @@ function SidebarItem({ name, setSidebarItem, sidebarItem }) {
     </li>
   );
 }
+
 function Docs() {
-  /* "":{component:< />} */
   const componentList = {
     Avatars: { component: <Avatars /> },
     Alerts: { component: <Alerts /> },
@@ -57,10 +56,18 @@ function Docs() {
   const [sidebarItem, setSidebarItem] = useState("Avatars");
 
   return (
-    <div className="doc-container">
+    <div class="container">
       <aside className="aside">
+        <Link className="logo-container" to="/">
+          <img src={logo} className="logo" alt="logo" />
+          <div className="logo-text">Clear-UI</div>
+        </Link>
         <ul className="ls">
-          <li className="ls-item highlighted">Installation Guide</li>
+          <li className="">
+            <HashLink className="ls-item highlighted" to="/#installation">
+              Installation Guide
+            </HashLink>
+          </li>
           {Object.keys(componentList).map((componentName) => (
             <SidebarItem
               key={componentName}
