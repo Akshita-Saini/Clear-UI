@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Component } from "../../utilities/Component";
-/* import "../styles.css";
-import "./Modal.css"; */
+import Highlight from "react-highlight";
+import "../styles.css";
+import "./Modal.css";
 
 function Modal() {
   const [isModalOpen, toggleModal] = useState(false);
@@ -38,6 +39,15 @@ function Modal() {
   return (
     <div className="component-container-outer">
       <h1 className="component-header">Modal</h1>
+      <div className="component-style-link">
+        <Highlight>
+          @import
+          url("https://clear-ui-v2.netlify.app/components/Navbar/Navbar.css");
+        </Highlight>
+        <Highlight className="html">
+          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Navbar/Navbar.css"></link>`}
+        </Highlight>
+      </div>
       <button className="btn-live" onClick={openModal}>
         LIVE
       </button>

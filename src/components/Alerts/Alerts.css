@@ -1,33 +1,33 @@
-.alert{
-    background-color: rgb(239, 247, 255);
-    color:var(--info);
-    border:2px solid var(--info);
-    border-radius: 0.2rem;
-    padding:0.5rem 1rem;
-    padding-right:1.4rem;
-    display:flex;
-    align-items:center;
-    margin:0.4rem;
-    width:max-content;
+.alert {
+  border-radius: 3.2px;
+  padding: 0.5rem 1.4rem 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0.4rem;
+  width: max-content;
+  color: var(--dark);
+  background-color: var(--light);
 }
 
-.alert-text{
-    padding-left:0.2rem;
+.alert-text {
+  padding-left: 0.2rem;
 }
 
-.alert-success{
-    background-color:rgb(224, 255, 209);
-    color:var(--success);
-    border:2px solid var(--success);
+.alert-info {
+  background-color: rgb(239, 247, 255);
+  color: var(--info);
 }
 
-.alert-danger{
-    background-color:rgb(250, 220, 220);
-    color:var(--danger);
-    border:1px solid var(--danger);
+.alert-success {
+  background-color: rgb(224, 255, 209);
+  color: var(--success);
 }
-.alert-warning{
-    background-color: rgb(255, 247, 223);
-    color:var(--warning);
-    border:1px solid var(--warning);
+
+.alert-danger {
+  background-color: rgb(250, 220, 220);
+  color: var(--danger);
+}
+.alert-warning {
+  background-color: rgb(255, 247, 223);
+  color: var(--warning);
 }

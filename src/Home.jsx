@@ -85,17 +85,20 @@ function Home() {
             project by importing the stylesheet in your css or html file.
           </p>
           <Highlight className="section-code">
-            @import url("https://clear-ui.netlify.app/components/index.css");
-            {`<link rel="stylesheet" href="https://clear-ui.netlify.app/components/index.css"></link>`}
+            @import url("https://clear-ui-v2.netlify.app/components/index.css");
+            {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/index.css"></link>`}
           </Highlight>
           <p className="section-body">
-            Import the default Prompt font in your project.
+            Import the default Prompt font and material-ui icons used.
           </p>
           <Highlight className="section-code">
             @import
             url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap");
           </Highlight>
-          <hr className="section-hr" />
+          <Highlight className="section-code">
+            npm install --save @material-ui/icons@4.11.2
+          </Highlight>
+          <div className="section-hr"></div>
           <Link className="section-button" to="/docs">
             Read installation docs
           </Link>
@@ -130,7 +133,7 @@ function Home() {
           <button class="btn btn-primary" style={{ marginBottom: "1.2rem" }}>
             I am Primary Button
           </button>
-          <hr className="section-hr" />
+          <div className="section-hr"></div>
           <Link className="section-button" to="/docs">
             Explore the docs
           </Link>

@@ -1,17 +1,18 @@
 @import url(/src/components/styles.css);
 .btn {
-  padding: 0.5rem;
+  padding: 0.8rem 1.6rem;
   border: 0;
   border-radius: 0.3rem;
   width: max-content;
-  font-size: 1.05rem;
+  font-size: 0.8rem;
   margin: 0.2rem;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  font-weight: 600;
 }
 
 .btn:hover {
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
-    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
-    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn-dark {
@@ -29,38 +30,48 @@
   background-color: var(--secondary);
 }
 
-.btn-outline.btn-primary {
+.btn-outline-primary {
   color: var(--primary);
   background-color: var(--light);
-  border: 1px solid var(--primary);
+  border: 2px solid var(--primary);
+  transition: all 0.5s;
 }
 
-.btn-outline.btn-primary:hover {
+.btn-outline-primary:hover {
   color: var(--light);
   background-color: var(--primary);
-  transition: 0.3s;
 }
 
-.btn-outline.btn-secondary {
+.btn-outline-secondary {
   color: var(--secondary);
   background-color: var(--light);
-  border: 1px solid var(--secondary);
+  border: 2px solid var(--secondary);
+  transition: all 0.5s;
 }
 
-.btn-outline.btn-secondary:hover {
-  color: var(--light);
+.btn-outline-secondary:hover {
+  color: var(--tertiary);
   background-color: var(--secondary);
-  transition: 0.3s;
 }
 
-.btn-inverted {
+.btn-inverted-primary {
   color: var(--primary);
   background-color: var(--dark);
-  border: 1px solid var(--primary);
+  border: 2px solid var(--dark);
+  transition: all 0.5s;
 }
 
-.btn-inverted {
+.btn-inverted-primary:hover {
+  color: var(--secondary);
+}
+
+.btn-inverted-secondary {
   color: var(--secondary);
   background-color: var(--dark);
-  border: 1px solid var(--secondary);
+  border: 2px solid var(--dark);
+  transition: all 0.5s;
+}
+
+.btn-inverted-secondary:hover {
+  color: var(--primary);
 }

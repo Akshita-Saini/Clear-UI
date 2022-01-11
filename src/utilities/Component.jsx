@@ -1,5 +1,5 @@
 import Highlight from "react-highlight";
-/* import "./Component.css"; */
+import "./Component.css";
 
 function Component({ heading, description, code, children }) {
   return (

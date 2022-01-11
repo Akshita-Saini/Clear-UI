@@ -1,55 +1,69 @@
 /* Navbar Light*/
-.navbar-container{
-    display:flex;
-    align-items:center;
-    background-color: var(--light);
-    box-shadow:rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    padding:1rem;
+.navbar-container {
+  display: flex;
+  align-items: center;
+  background-color: var(--light);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  padding: 1rem;
+  justify-content: space-between;
 }
 
-.nav-brand-name{
-    color:var(--tertiary);
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding-right:0.5rem;
+.nav-brand-name {
+  color: var(--tertiary);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-.nav-list-link{
-    display:inline;
-    color:var(--primary);
-    padding:0 0.5rem 0 0.5rem;
+.nav-list-link {
+  display: inline;
+  color: var(--primary);
+  padding: 0 0.5rem 0 0.5rem;
+  transition: all 0.3s;
 }
 
-.nav-list-link:hover{
-    color:var(--secondary);
+.nav-list-link:hover {
+  color: var(--secondary);
 }
-
 
 /* Navbar Dark*/
-.navbar-container-dark{
-    background-color: var(--dark);
-    color: var(--secondary);
-    box-shadow:rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    padding:1rem;
-    display:flex;
-    align-items:center;
+.navbar-container-dark {
+  background-color: var(--dark);
+  color: var(--secondary);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.nav-brand-name-dark{
-    background-color: var(--dark);
-    color: var(--secondary);
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding-right:0.5rem;
+.nav-brand-name-dark {
+  background-color: var(--dark);
+  color: var(--secondary);
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-.nav-list-link-dark{
-    color:var(--secondary);
-    display:inline;
-    padding:0 0.5rem 0 0.5rem;
+.nav-list-link-dark {
+  color: var(--secondary);
+  display: inline;
+  padding: 0 0.5rem 0 0.5rem;
+  transition: all 0.3s;
 }
 
-.nav-list-link-dark:hover{
-    color:var(--primary);
-} 
-
+.nav-list-link-dark:hover {
+  color: var(--primary);
+}

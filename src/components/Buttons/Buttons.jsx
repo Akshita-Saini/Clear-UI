@@ -1,14 +1,24 @@
 import { Component } from "../../utilities/Component";
-/* import "../styles.css";
+import Highlight from "react-highlight";
+import "../styles.css";
 import "./Buttons.css";
- */
+
 function Buttons() {
   return (
     <div className="component-container-outer">
       <h1 className="component-header">Buttons</h1>
+      <div className="component-style-link">
+        <Highlight>
+          @import
+          url("https://clear-ui-v2.netlify.app/components/Buttons/Buttons.css");
+        </Highlight>
+        <Highlight className="html">
+          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Buttons/Buttons.css"></link>`}
+        </Highlight>
+      </div>
       <Component
         heading="Solid Buttons"
-        description="These are solid buttons."
+        description="This component is available in 2 variants, btn-primary and btn-secondary."
         code={[
           `<button className="btn btn-primary">Primary</button>`,
           `<button className="btn btn-secondary">Secondary</button>`,
@@ -19,25 +29,25 @@ function Buttons() {
       </Component>
       <Component
         heading="Outline Buttons"
-        description="These are outline buttons."
+        description="There are two variant of outline buttons available, btn-outline-primary and btn-outline-secondary."
         code={[
-          `<button className="btn btn-outline btn-primary">Primary</button>`,
-          `<button className="btn btn-outline btn-secondary">Secondary</button>`,
+          `<button className="btn btn-outline-primary">Primary</button>`,
+          `<button className="btn btn-outline-secondary">Secondary</button>`,
         ]}
       >
-        <button className="btn btn-outline btn-primary">Primary</button>
-        <button className="btn btn-outline btn-secondary">Secondary</button>
+        <button className="btn btn-outline-primary">Primary</button>
+        <button className="btn btn-outline-secondary">Secondary</button>
       </Component>
       <Component
         heading="Inverted Buttons"
-        description="These are inverted buttons."
+        description="There are two variant of inverted buttons available, btn-inverted-primary and btn-inverted-secondary."
         code={[
-          `<button className="btn btn-inverted btn-primary">Primary</button>`,
-          `<button className="btn btn-inverted btn-secondary">Secondary</button>`,
+          `<button className="btn btn-inverted-primary">Primary</button>`,
+          `<button className="btn btn-inverted-secondary">Secondary</button>`,
         ]}
       >
-        <button className="btn btn-inverted btn-primary">Primary</button>
-        <button className="btn btn-inverted btn-secondary">Secondary</button>
+        <button className="btn btn-inverted-primary">Primary</button>
+        <button className="btn btn-inverted-secondary">Secondary</button>
       </Component>
     </div>
   );

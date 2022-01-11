@@ -1,62 +1,70 @@
-.color-pallet{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+.color-pallet {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.color{
-    width:5rem;
-    height: 5rem;
-    padding:1rem;
-    margin:1rem;
-    color:var(--light);
+.color {
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+  margin: 1rem;
+  color: var(--light);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.color.bg-light{
-    border:1px solid var(--dark);
+.color-name,
+.color-code {
+  font-size: 0.9rem;
 }
 
-.color.bg-light{
-    color:var(--dark);
+.color.bg-light {
+  border: 1px solid var(--dark);
 }
 
-.bg-primary{
-    background-color: var(--primary);
+.color.bg-light {
+  color: var(--dark);
 }
 
-.bg-secondary{
-    background-color: var(--secondary);
+.bg-primary {
+  background-color: var(--primary);
 }
 
-.bg-tertiary{
-    background-color: var(--tertiary);
+.bg-secondary {
+  background-color: var(--secondary);
 }
 
-.bg-success{
-    background-color: var(--success);
+.bg-tertiary {
+  background-color: var(--tertiary);
 }
 
-.bg-danger{
-    background-color: var(--danger);
+.bg-success {
+  background-color: var(--success);
 }
 
-.bg-info{
-    background-color: var(--info);
+.bg-danger {
+  background-color: var(--danger);
 }
 
-.bg-light{
-    background-color: var(--light);
+.bg-info {
+  background-color: var(--info);
 }
 
-.bg-dark{
-    background-color: var(--dark);
+.bg-light {
+  background-color: var(--light);
 }
 
-.bg-grey{
-    background-color: var(--grey);
+.bg-dark {
+  background-color: var(--dark);
 }
 
-.bg-warning{
-    background-color: var(--warning);
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.bg-warning {
+  background-color: var(--warning);
 }

@@ -176,7 +176,7 @@
 
 .section-body {
   font-weight: 300;
-  padding: 0;
+  padding: 1rem 0;
 }
 
 .section-code {
@@ -188,6 +188,7 @@
   height: 0;
   width: 100%;
   border-top: 2px solid var(--tertiary-bg-color);
+  margin-top: 1rem;
 }
 
 .section-button {

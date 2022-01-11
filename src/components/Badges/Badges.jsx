@@ -1,14 +1,24 @@
 import { Component } from "../../utilities/Component";
-/* import "../styles.css";
-import "./Badges.css"; */
+import Highlight from "react-highlight";
+import "../styles.css";
+import "./Badges.css";
 
 function Badges() {
   return (
     <div className="component-container-outer">
-      <h1 className="component-header">Buttons</h1>
+      <h1 className="component-header">Badges</h1>
+      <div className="component-style-link">
+        <Highlight>
+          @import
+          url("https://clear-ui-v2.netlify.app/components/Badges/Badges.css");
+        </Highlight>
+        <Highlight className="html">
+          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Badges/Badges.css"></link>`}
+        </Highlight>
+      </div>
       <Component
-        heading="Badges"
-        description="These are simple badges."
+        heading="Simple Badges"
+        description="To use badges add badge-parent to its parent container."
         code={[
           `<div className="badge-parent">`,
           `    <div className="badge badge-online"></div>`,
