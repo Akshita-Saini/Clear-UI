@@ -41,11 +41,10 @@ function Modal() {
       <h1 className="component-header">Modal</h1>
       <div className="component-style-link">
         <Highlight>
-          @import
-          url("https://clear-ui-v2.netlify.app/components/Navbar/Navbar.css");
+          @import url("https://clear-ui.netlify.app/css/Modal.css");
         </Highlight>
         <Highlight className="html">
-          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Navbar/Navbar.css"></link>`}
+          {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/Modal.css"></link>`}
         </Highlight>
       </div>
       <button className="btn-live" onClick={openModal}>

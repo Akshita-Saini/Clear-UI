@@ -9,11 +9,10 @@ function Alerts() {
       <h1 className="component-header">Alerts</h1>
       <div className="component-style-link">
         <Highlight>
-          @import
-          url("https://clear-ui-v2.netlify.app/components/Alerts/Alerts.css");
+          @import url("https://clear-ui.netlify.app/css/Alerts.css");
         </Highlight>
         <Highlight className="html">
-          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Alerts/Alerts.css"></link>`}
+          {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/Alerts.css"></link>`}
         </Highlight>
       </div>
       <Component

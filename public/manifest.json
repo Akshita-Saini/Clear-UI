@@ -1,8 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Clear-UI",
+  "name": "Clear-UI: Component Library",
   "icons": [
-    
+    {
+      "src": "favicon.ico",
+      "sizes": "192x192 512x512",
+      "type": "image/x-icon"
+    }
   ],
   "start_url": ".",
   "display": "standalone",

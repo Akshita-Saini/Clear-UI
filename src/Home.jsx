@@ -85,8 +85,8 @@ function Home() {
             project by importing the stylesheet in your css or html file.
           </p>
           <Highlight className="section-code">
-            @import url("https://clear-ui-v2.netlify.app/components/index.css");
-            {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/index.css"></link>`}
+            @import url("https://clear-ui.netlify.app/css/index.css");
+            {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/index.css"></link>`}
           </Highlight>
           <p className="section-body">
             Import the default Prompt font and material-ui icons used.

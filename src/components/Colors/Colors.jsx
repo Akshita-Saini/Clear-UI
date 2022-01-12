@@ -9,11 +9,10 @@ function Colors() {
       <h1 className="component-header">Colors</h1>
       <div className="component-style-link">
         <Highlight>
-          @import
-          url("https://clear-ui-v2.netlify.app/components/Colors/Colors.css");
+          @import url("https://clear-ui.netlify.app/css/Colors.css");
         </Highlight>
         <Highlight className="html">
-          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Colors/Colors.css"></link>`}
+          {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/Colors.css"></link>`}
         </Highlight>
       </div>
       <Component

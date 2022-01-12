@@ -9,11 +9,10 @@ function Buttons() {
       <h1 className="component-header">Buttons</h1>
       <div className="component-style-link">
         <Highlight>
-          @import
-          url("https://clear-ui-v2.netlify.app/components/Buttons/Buttons.css");
+          @import url("https://clear-ui.netlify.app/css/Buttons.css");
         </Highlight>
         <Highlight className="html">
-          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Buttons/Buttons.css"></link>`}
+          {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/Buttons.css"></link>`}
         </Highlight>
       </div>
       <Component

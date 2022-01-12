@@ -12,11 +12,10 @@ function Avatars() {
       <h1 className="component-header">Avatars</h1>
       <div className="component-style-link">
         <Highlight>
-          @import
-          url("https://clear-ui-v2.netlify.app/components/Avatars/Avatars.css");
+          @import url("https://clear-ui.netlify.app/css/Avatars.css");
         </Highlight>
         <Highlight className="html">
-          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Avatars/Avatars.css"></link>`}
+          {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/Avatars.css"></link>`}
         </Highlight>
       </div>
 

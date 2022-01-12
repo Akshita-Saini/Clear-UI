@@ -9,11 +9,10 @@ function Badges() {
       <h1 className="component-header">Badges</h1>
       <div className="component-style-link">
         <Highlight>
-          @import
-          url("https://clear-ui-v2.netlify.app/components/Badges/Badges.css");
+          @import url("https://clear-ui.netlify.app/css/Badges.css");
         </Highlight>
         <Highlight className="html">
-          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Badges/Badges.css"></link>`}
+          {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/Badges.css"></link>`}
         </Highlight>
       </div>
       <Component

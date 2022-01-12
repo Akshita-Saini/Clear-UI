@@ -15,11 +15,10 @@ function Lists() {
       <h1 className="component-header">Lists</h1>
       <div className="component-style-link">
         <Highlight>
-          @import
-          url("https://clear-ui-v2.netlify.app/components/Lists/Lists.css");
+          @import url("https://clear-ui.netlify.app/css/Lists.css");
         </Highlight>
         <Highlight className="html">
-          {`<link rel="stylesheet" href="https://clear-ui-v2.netlify.app/components/Lists/Lists.css"></link>`}
+          {`<link rel="stylesheet" href="https://clear-ui.netlify.app/css/Lists.css"></link>`}
         </Highlight>
       </div>
       <Component
