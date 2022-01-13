@@ -9,16 +9,12 @@
 }
 
 .component-container-inner {
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.component-container-inner {
   background-color: var(--light);
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .component-code {
@@ -42,6 +38,10 @@ pre {
   margin: 0rem;
 }
 
+code {
+  overflow: hidden;
+}
+
 .component-header {
   padding-left: 2rem;
   font-weight: 300;
@@ -60,4 +60,11 @@ pre {
   padding-left: 1rem;
   border: 1px solid var(--primary-text-color);
   border-radius: 0.35rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .component-container-outer {
+    width: 100%;
+    padding: 2rem 0 0 0;
+  }
 }

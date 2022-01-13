@@ -46,3 +46,11 @@
 .right {
   right: 0.2rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .left,
+  .right,
+  .center {
+    top: -0.75rem;
+  }
+}

@@ -11,7 +11,9 @@
   --secondary-text-color: #8d99ae;
   --black: #212121;
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   margin: 0px;
   font-family: "Prompt", sans-serif;

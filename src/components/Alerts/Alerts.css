@@ -31,3 +31,15 @@
   background-color: rgb(255, 247, 223);
   color: var(--warning);
 }
+
+@media only screen and (max-width: 600px) {
+  .alert {
+    border-radius: 2px;
+    padding: 0.25rem 0.7rem 0.25rem 0.5rem;
+    margin: 0.2rem;
+  }
+
+  .alert-text {
+    padding-left: 0.1rem;
+  }
+}

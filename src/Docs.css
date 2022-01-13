@@ -7,7 +7,6 @@
 .aside {
   width: 16rem;
   position: fixed;
-  /*   z-index: 1; */
   left: 1rem;
   top: 20px;
   font-size: 1.2rem;
@@ -78,4 +77,13 @@
 .docs {
   color: var(--secodary-bg-color);
   margin-left: 18rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .aside {
+    display: none;
+  }
+  .docs {
+    margin-left: 0;
+  }
 }
