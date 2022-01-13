@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  box-sizing: content-box;
 }
 
 .color-name,
@@ -67,4 +68,12 @@
 
 .bg-warning {
   background-color: var(--warning);
+}
+
+@media only screen and (max-width: 600px) {
+  .color {
+    height: 4rem;
+    width: 4rem;
+    margin: 0.5rem;
+  }
 }
