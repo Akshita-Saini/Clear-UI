@@ -119,6 +119,10 @@
     margin-top: 3rem;
   }
 
+  .docs-nav {
+    width: 100%;
+  }
+
   .docs-header {
     z-index: 10;
     position: fixed;
