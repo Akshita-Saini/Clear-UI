@@ -33,17 +33,17 @@ function Alerts() {
         </div>
         <div className="alert alert-success">
           <CheckCircle />{" "}
-          <span className="alert-text">Success: Successfully uploaded</span>
+          <span className="alert-text">Success: Successfully uploaded.</span>
         </div>
         <div className="alert alert-danger">
           <Error />{" "}
           <span className="alert-text">
-            Error: There were two errors in your submission
+            Error: There was an error.
           </span>
         </div>
         <div className="alert alert-warning">
           <Warning />{" "}
-          <span className="alert-text">Warning: You have no credits left</span>
+          <span className="alert-text">Warning: You have no credits left.</span>
         </div>
       </Component>
     </div>

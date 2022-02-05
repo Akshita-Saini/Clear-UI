@@ -59,7 +59,7 @@ function Toast() {
           style={{ display: "flex", alignItems: "center", position: "unset" }}
         >
           <CheckCircle />{" "}
-          <span className="toast-text">Success: Successfully uploaded</span>
+          <span className="toast-text">Success: Successfully uploaded.</span>
         </div>
         <div
           className="toast toast-danger"
@@ -67,7 +67,7 @@ function Toast() {
         >
           <Error />{" "}
           <span className="toast-text">
-            Error: There were two errors in your submission
+            Error: There was an error.
           </span>
         </div>
         <div
@@ -75,7 +75,7 @@ function Toast() {
           style={{ display: "flex", alignItems: "center", position: "unset" }}
         >
           <Warning />{" "}
-          <span className="toast-text">Warning: You have no credits left</span>
+          <span className="toast-text">Warning: You have no credits left.</span>
         </div>
       </Component>
     </div>

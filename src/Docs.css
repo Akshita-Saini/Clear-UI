@@ -116,6 +116,7 @@
   }
 
   .docs-header {
+    z-index: 10;
     position: fixed;
     height: 4rem;
     width: 100%;
