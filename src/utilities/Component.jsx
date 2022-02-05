@@ -7,12 +7,10 @@ function Component({ heading, description, code, children }) {
       <h2 className="component-heading">{heading}</h2>
       <p className="component-description">{description}</p>
       <div className="component-demo">{children}</div>
-      <code>
-        <div className="component-code">
+      <code className="component-code">
           {code.map((line) => (
             <Highlight className="html">{line}</Highlight>
           ))}
-        </div>
       </code>
     </div>
   );

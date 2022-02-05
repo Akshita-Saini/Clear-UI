@@ -79,11 +79,56 @@
   margin-left: 18rem;
 }
 
+.docs-nav {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.docs-nav svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.docs-nav-left,
+.docs-nav-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.docs-nav-right svg {
+  margin-left: 8px;
+}
+
+.docs-header {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .aside {
     display: none;
   }
+
   .docs {
     margin-left: 0;
+    margin-top: 3rem;
+  }
+
+  .docs-header {
+    position: fixed;
+    height: 4rem;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+      rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+      rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
   }
 }

@@ -172,6 +172,8 @@
   color: var(--primary-color);
   stroke: var(--primary-color);
   fill: var(--primary-color);
+  height: 2.75rem;
+  width: 2.75rem;
 }
 
 .section-body {
