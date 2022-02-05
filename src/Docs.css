@@ -57,9 +57,12 @@
   font-size: 1.1rem;
 }
 
-.ls-item:hover,
 .ls-item:active {
   background-color: rgba(227, 202, 255, 0.548);
+}
+
+.ls-item:hover {
+  background-color: rgba(239, 227, 253, 0.548);
 }
 
 .highlighted {
@@ -83,6 +86,7 @@
   padding: 1.5rem;
   display: flex;
   justify-content: space-between;
+  width: 80%;
 }
 
 .docs-nav svg {
