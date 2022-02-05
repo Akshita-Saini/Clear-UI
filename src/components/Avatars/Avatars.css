@@ -1,8 +1,10 @@
+/* Not required for using avatar components */
 .avatar-container {
   display: flex;
   align-items: center;
 }
 
+/* Required for using avatar components */
 .avatar {
   border: none;
   border-radius: 50%;

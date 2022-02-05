@@ -1,3 +1,5 @@
+@import url(./styles.css);
+
 .card-container {
   background-color: var(--light);
   color: var(--dark);

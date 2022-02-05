@@ -1,3 +1,4 @@
+/* Note required to use Lists components */
 .list-container {
   background-color: #e6e6e9;
   display: flex;
@@ -6,6 +7,7 @@
   padding: 1rem;
 }
 
+/* Required to use Lists components */
 .list {
   list-style: none;
   margin-block-start: 0;

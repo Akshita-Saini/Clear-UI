@@ -1,10 +1,4 @@
-.list-container {
-  background-color: #e6e6e9;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
+@import url(./styles.css);
 
 .list {
   list-style: none;
